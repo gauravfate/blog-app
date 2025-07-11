@@ -11,7 +11,7 @@ const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 const app = express();
 
 const allowedOrigins = [
-//   "https://blog-app-frontend-green.vercel.app",
+   "https://blog-app-frontend-green.vercel.app",
   "http://localhost:3000"
 ];
 
