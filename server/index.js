@@ -27,7 +27,9 @@ app.use("/api/posts", postRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-
+app.get("/",(req, res)=> {
+    res.json("All Well !!");
+})
 
 connect(`${process.env.MONGO_URL}`)
     .then(
